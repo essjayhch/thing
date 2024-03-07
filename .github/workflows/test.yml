@@ -15,3 +15,5 @@ jobs:
       redis:
         # Docker Hub image
         image: redis
+    steps:
+      - run: sleep 120
