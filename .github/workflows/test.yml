@@ -1,6 +1,9 @@
 name: Redis container example
 on: push
 
+premissions:
+  id-token: write
+
 jobs:
   # Label of the container job
   container-job:
