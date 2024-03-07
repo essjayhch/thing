@@ -1,0 +1,10 @@
+name: Test Service
+on: push
+
+jobs:
+  container-job:
+  runs-on: ubuntu-latest
+  container: node:16-bullseye
+  services:
+    thing:
+      image: essjayhch/thing
