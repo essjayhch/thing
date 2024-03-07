@@ -1,7 +1,7 @@
 name: Redis container example
 on: push
 
-premissions:
+permissions:
   id-token: write
 
 jobs:
